@@ -1,0 +1,150 @@
+<!DOCtype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Hapz - Recarregue agora seu celular </title>
+        <meta name="description" content=" Empresa especializa em recarga de celular e Aplicativos Mobile">
+        <meta name="keywords" content="Recarga de celular, recarga, dados,">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content=" Vinicius Duarte / e-mail-vduartejs@gmail.com ">
+        <!-- Importa Fonte Family (Titillium Web)  -->
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700&display=swap" rel="stylesheet"> 
+        <!-- Importa Fonte Family (Roboto)  -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+        <!-- Importa os arquivos CSS -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/mediatypes.css"/> 
+        <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css"/> 
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/> 
+    </head>
+    <body >
+        <!-- background image -->
+        <div class="background-woman" id="trocarbgi"> 
+            <!-- Logo --> 
+            <header class="logomarca container">
+                <a href="index.html"><h1 class="vetor-detalhe"></h1></a>
+                <a href="index.html"><h1 class="vetor"></h1></a>
+                <a href="index.html"><h1 class="logo"> Hapz - Tecnologia na palma da sua mão </h1></a>
+            </header>
+         
+            <!-- Sessão destaque texto --> 
+            <section class="destaque-texto container">
+                <div>
+                    <h3 onclick="trocarimg ();">Você está sem saldo</h3>
+                    <h2>Recarregue agora</h2>
+                </div>
+            </section>
+
+            <!-- Sessão BOX'S contratar creditos em R$ --> 
+            <div class="area-box container">
+                <div class="box-esquerda boxbgl box-preco">
+                    <p class="preco fbold">R$15</p>
+                    <p class="bonus">E ganhe R$5 de bônus</p>
+                    <p><a class="contratar" href="#">contratar</a></p>
+                </div>
+                <div class="box-direita boxbgr box-preco">
+                    <p class="preco fbold">R$20</p>
+                    <p class="bonus">E ganhe R$10 de bônus</p>
+                    <p><a class="contratar" href="#">contratar</a></p>
+                </div>
+            </div>
+            <!-- Sessão TAB'S / utilizado Js para trocar de abas CRÉDITOS / DADOS --> 
+            <div class="tabs"> 
+                <a class="btn-tabs active tablinks" id="link-creditos" href="#"  onclick="openCity(event, 'tab-creditos')">créditos</a>
+                <a class="btn-tabs tablinks" href="#"  onclick="openCity(event, 'tab-dados')">dados</a>
+                <div class="blur"></div>
+            </div>
+        </div> 
+        <!-- Sessão assine (CRÉDITOS) -->
+        <div class="assine">
+            <div class="tabcontent" id="tab-creditos">
+                <div class="item-tab">
+                    <!-- BANNER 01-->
+                    <div class="hapz-descontos">
+                        <a class="btn-assine btntxtassine">assine</a>
+                        <p class="texto-thumb">HAPZ Descontos</p>
+                    </div>
+                    <div class="position-legend">
+                        <p class="titulo-img">Saraiva 10% </p>
+                        <span class="legend">curta o som</span> 
+                    </div>
+                    
+               </div>
+               <div class="item-tab">
+                   <!-- BANNER 02 -->
+                    <div class="hap-fit">
+                            <a class="btn-assine btntxtassine">assine</a>
+                            <p class="texto-thumb">HAPFIT</p>
+                        </div>
+                        <p>Corpo perfeito</p>
+                        <span>5 dias grátis</span> 
+                   </div>
+                   <!-- BANNER 03 -->
+                   <div class="item-tab">
+                        <div class="hapz-sounds">
+                            <a class="btn-assine btntxtassine">assine</a>
+                            <p class="texto-thumb">HAPZ Sounds</p>
+                        </div>
+                            <p>Curta um som</p>
+                            <span>7 dias grátis </span> 
+                    </div>
+                <!-- BANNER 04 -->
+                <div class="item-tab">
+                    <div class="play-kids">
+                        <a class="btn-assine btntxtassine">assine</a>
+                        <p class="texto-thumb">Playkids</p>
+                    </div>
+                        <p>Muita diversão</p>
+                        <span>3 dias grátis </span> 
+                    </div>
+                </div>
+        </div>
+            </div>
+            <!-- Sessão assine DADOS-->
+            <div class="tabcontent" id="tab-dados">
+                    <div class="item-tab">
+                        <!-- BANNER 01-->
+                        <div class="hapz-descontos  ">
+                            <a class="btn-assine btntxtassine">assine</a>
+                            <p class="texto-thumb">HAPZ Descontos </p>
+                        </div>
+                        <p class="titulo-img">Saraiva 10% </p>
+                        <span class="legend">curta o som</span> 
+                   </div>
+                   <div class="item-tab">
+                       <!-- BANNER 02 -->
+                        <div class="hap-fit">
+                                <a class="btn-assine btntxtassine">assine</a>
+                                <p class="texto-thumb">HAPFIT</p>
+                            </div>
+                            <p>Corpo perfeito</p>
+                            <span>5 dias grátis</span> 
+                       </div>
+                       <!-- BANNER 03 -->
+                       <div class="item-tab">
+                            <div class="hapz-sounds">
+                                <a class="btn-assine btntxtassine">assine</a>
+                                <p class="texto-thumb">HAPZ Sounds</p>
+                            </div>
+                                <p>Curta um som </p>
+                                <span>7 dias grátis </span> 
+                        </div>
+                    <!-- BANNER 04 -->
+                    <div class="item-tab">
+                        <div class="play-kids">
+                            <a class="btn-assine btntxtassine">assine</a>
+                            <p class="texto-thumb">Playkids</p>
+                        </div>
+                        <div class="section-text">
+                            <p>Muita diversão</p>
+                            <span>3 dias grátis </span> 
+                        </div>    
+                        </div>
+                    </div>
+            </div>
+    </div>
+    <!-- Importação do link JavaScript--> 
+    <script type="text/javascript" src="js/js.js"></script>
+    </body>
+</html>
