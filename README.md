@@ -1,2 +1,2 @@
 <h1>Hapz-Mobile-first</h1>
-<img src="screenshot.JPG" alt="screenshot Hapz Mobile/>
+<image src="screenshot.JPG" alt="screenshot Hapz Mobile/>
