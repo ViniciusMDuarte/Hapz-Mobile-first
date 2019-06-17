@@ -1,4 +1,4 @@
-<p align="center">
+<p text-align="center">
   <h1> Repodrução de Layout em modo mobileFirst </h1>
 </p>
 
