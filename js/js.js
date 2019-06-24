@@ -14,17 +14,25 @@ function openCity(evt, idDoElemento) {
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
+    
     }
   
     // Mostra o current tab, e add a "active" class para button que abriu a guia
     document.getElementById(idDoElemento).style.display = "block";
     evt.currentTarget.className += " active";
+  
   }
   document.getElementById("link-creditos").click();
 
-  // Troca imagem de plano de fundo
-  function trocafundo () {
-    document.getElementById('trocarbgi').style.backgroundImage = "url('img/background/background-man.jpg')";
-  }
-  document.getElementById("tab-dados").click();
+
+ // Troca imagem de plano de fundo
+
+ function trocafundo () {
+ document.getElementById('trocarbgi').style.backgroundImage = "url('img/background/background-man.jpg')";
+ document.getElementById('box1preco').innerHTML = "2GB";
+ document.getElementById('box1bonus').innerHTML = "Redes Sociais Ilimitadas";
+ document.getElementById('box2preco').innerHTML = "5GB";
+ document.getElementById('box2bonus').innerHTML = "Redes Sociais Ilimitadas";
+ }
+document.getElementById("tab-dados").click();
   

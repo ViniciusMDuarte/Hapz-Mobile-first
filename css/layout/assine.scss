@@ -1,0 +1,162 @@
+.hapz-descontos {
+    height: 130px;  
+    position: relative;
+    background-image: url(../img/setordescontos/saraiva.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: -2px;
+    border-radius: 4px;
+    left: 2px;
+}
+
+.hapz-descontos:after {
+    content: '';
+    height: 86.98px;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
+    z-index: 1;
+    opacity: 0.9;
+    position: $positionabsolute;
+    border-radius: 4px;
+}
+.hap-fit {
+    height: 130px;  
+    position: relative;
+    background-image: url(../img/setordescontos/academia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: -2px;
+    border-radius: 4px;
+    left: 5px;
+}
+
+.hap-fit:after {
+    content: '';
+    height: 86.98px;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
+    z-index: 1;
+    opacity: 0.9;
+    position: $positionabsolute;
+    border-radius: 4px;
+}
+.hapz-sounds {
+    height: 130px;  
+    position: relative;
+    background-image: url(../img/setordescontos/music.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: -2px;
+    border-radius: 4px;
+    left: 2px;
+}
+
+.hapz-sounds:after {
+    content: '';
+    height: 86.98px;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
+    z-index: 1;
+    opacity: 0.9;
+    position: $positionabsolute;
+    border-radius: 4px;
+}
+.play-kids {
+    height: 130px;  
+    position: relative;
+    background-image: url(../img/setordescontos/childreem.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-right: -2px;
+    border-radius: 4px;
+    left: 5px;
+}
+
+.play-kids:after {
+    content: '';
+    height: 86.98px;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
+    z-index: 1;
+    opacity: 0.9;
+    position: $positionabsolute;
+    border-radius: 4px;
+}
+
+
+.btn-assine{
+    position: $positionabsolute;
+    top: 543.06px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+    background: #2F80ED;
+    border-radius: 2.02041px;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+    padding: 5.89px 12.73px 5.89px 12.73px;
+    text-transform: uppercase;
+}
+
+.texto-thumb {
+    font-size: 16px;
+    line-height: 24px;
+    position: $positionabsolute;
+    padding: 0 11px;
+    width: 100%;
+    color: white;
+    bottom: 7.72px;
+    z-index: 2;
+    font-weight: 100;
+}
+
+.btntextassine {
+    position: $positionabsolute;
+    width: 37.56px;
+    height: 13.81px;
+    left: 122.08px;
+    top: 473.05px;
+    font-family: $fontpadrao;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+.titulo-img {
+    width: 100%;
+    height: 20.39px;
+    left: 28.73px;
+    top: 583.62px;
+    font-family: $fontpadrao;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#mudacor {
+    width:100%;
+    height: 424px;
+    background: url(../img/background/background-man.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.position-legend {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    line-height: 0.90cm;
+    margin-left: 12px;
+}

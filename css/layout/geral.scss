@@ -1,0 +1,10 @@
+/*=== CONTEINER ===*/
+.container {
+    width: $largurafull;
+    float: left;
+}
+/*=== BACKGROUND IMAGE ===*/
+.background-woman {
+    background: url(../img/background/background-woman.jpg);
+    @include background;   
+}

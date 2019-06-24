@@ -1,0 +1,62 @@
+/*=== SESSÃO BOX'S CONTRATAR CRÉDITOS/DADOS===*/
+.area-box {
+    text-align: center;
+}
+.box-preco {
+    position: $positionabsolute;
+    width: 44%;
+    height: 114px;
+    top: 242px;
+    float: left;
+    background: #F2F2F2;
+    box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.box-direita {
+    right: 4%;
+}
+.box-esquerda {
+    left: 4%;
+}
+.preco {
+    width: 100%;
+    height: 55px;
+    left: 21px;
+    top: 242px;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 55px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #2E7CE6;
+}
+
+.fbold {
+    font-weight: bold;
+}
+
+.bonus {
+    width: 100%;
+    height: 23px;
+    left: 21px;
+    top: 299px;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #828282;
+}
+.contratar {
+    width: 100%;
+    background: #F2994A;
+    border-radius: 0px 0px 8px 8px;
+    height: 37px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #55361A;
+    justify-content: center;
+    text-decoration: none;
+}

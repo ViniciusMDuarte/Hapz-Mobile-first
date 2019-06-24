@@ -1,0 +1,36 @@
+
+/*=== LOGO ===*/
+.vetor-detalhe {
+    position: $positionabsolute;
+    width: 10.4px;
+    height: 11.42px;
+    left: 30.2px;
+    top: 31.09px;
+    margin-right: 328px;
+    background: url(../img/logo/Vector-fundo.png) center center/20px no-repeat;
+    font-size: 0;
+    z-index: 2
+}
+.vetor {
+    position: $positionabsolute;
+    width: 20px;
+    height: 33.2px;
+    left: 27px;
+    top: 29px;
+    margin-right: 328px;
+    background: url(../img/logo/Vector.png) center center/20px no-repeat;
+    font-size: 0;
+    z-index: 1
+}
+
+.logo {
+    position: $positionabsolute;
+    width: 81.18px;
+    height: 24.66px;
+    left: 49.52px;
+    margin-right: 244.3px;
+    bottom: 367.34px;
+    top: 32px;
+    background: url(../img/logo/Hapz.png) center center/81.18px no-repeat;
+    font-size: 0;
+}

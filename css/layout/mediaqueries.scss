@@ -1,18 +1,17 @@
 
-
 @media screen and (min-width: 375px) {
-    h2 {
+    h3 {
         font-size: 2em;
       }
 }
 @media screen and (min-width: 414px) {
-  h2 {
+  h3 {
       font-size: 3em;
     }
 }
 
-@media screen and (min-width: 375px) {
-  h2 {
-      font-size: 2em;
+@media screen and (min-width: 480px) {
+  h3 {
+      font-size: 3em;
     }
 }
